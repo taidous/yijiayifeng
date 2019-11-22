@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mangmang:war">
+    <output-path>$PROJECT_DIR$/../mangmang/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>mangmang</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mangmang-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="mangmang:war exploded" />
+    </root>
+  </artifact>
+</component>
